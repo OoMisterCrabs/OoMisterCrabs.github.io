@@ -2,7 +2,9 @@
 <html>
 <head>
 <link rel="stylesheet" href="Style.css">
-style>
+<style>
+*[some] { color: sandybrown; }
+p[some='test'] { color: blueviolet; }
 .different { color: black; }
 #myHeader {
   background-color: lightblue;
@@ -30,6 +32,9 @@ style>
 
 <p class="different">Another paragraph element.</p>
 <p id=myHeader>Another paragraph element.</p>
+<p some="value">Paragraph with 'some' attribute.</p>
+<p some="test">Paragraph with 'some' attribute equals to test.</p>
+
 
 <ul>
   <li>Coffee</li><button><img src="Coffee.jpg" title="This is Coffee" width="50" height="50"></button>
